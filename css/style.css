@@ -491,21 +491,21 @@ font-family: "Lucida Sans Unicode";
 .cut-brends__chk {
 }
 .brend-btn {
-	margin-top: 17px;
-	margin-left: 20px;
-	background: -moz-linear-gradient(to top, #0e385d, #1f6787);
-	background: -webkit-linear-gradient(to top, #0e385d, #1f6787);
-	background: linear-gradient(to top, #0e385d, #1f6787);
-	line-height: 26px;
-	padding: 0 14px;
-	letter-spacing: 1px;
-	border-radius: 25px;
-	color: #e5e9ea;
-	font-size: 11px;
-	text-transform: uppercase;
-	-webkit-box-shadow: 1px 2px 4px 0px rgba(140,150,154,1);
-	-moz-box-shadow: 1px 2px 4px 0px rgba(140,150,154,1);
-	box-shadow: 1px 2px 4px 0px rgba(140,150,154,1);
+	    margin-top: 17px;
+    margin-left: 21px;
+    background: -moz-linear-gradient(to top, #0e385d, #1f6787);
+    background: -webkit-linear-gradient(to top, #0e385d, #1f6787);
+    background: linear-gradient(to top, #0e385d, #1f6787);
+    line-height: 26px;
+    padding: 0 12px 0 13px;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    color: #e5e9ea;
+    font-size: 11px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 1px 2px 4px 0px rgba(140,150,154,1);
+    -moz-box-shadow: 1px 2px 4px 0px rgba(140,150,154,1);
+    box-shadow: 1px 2px 4px 0px rgba(140,150,154,1);
 }
 .venders {
 	width: 100%;
