@@ -125,10 +125,10 @@ input[name="user-password"] {
 	background: -webkit-linear-gradient(to top, #020202, #2d3236);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020202', endColorstr='#2d3236',GradientType=0 );
 	background: linear-gradient(to top, #020202, #2d3236);
-	padding-left: 125px;
+	padding-left: 132px;
 	padding-right: 16px;
 	border-top: 4px solid #4d5663;
-	border-radius: 10px;
+	border-radius: 5px;
 	padding-bottom: 3px;
 	-webkit-box-shadow: 2px 3px 4px 0px rgba(140,150,154,1);
 	-moz-box-shadow: 2px 3px 4px 0px rgba(140,150,154,1);
@@ -141,13 +141,16 @@ input[name="user-password"] {
 	float: left;
 }
 .main-nav__item a {
-	font-family: "Lucida Sans Unicode";
-	font-size: 14px;	
-	text-transform: uppercase;
-	color: #b1bcc0;
-	line-height: 27px;
-	display: block;
-	padding: 0 15px;
+font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b1bcc0;
+    line-height: 27px;
+    display: block;
+    padding: 0 15px 0 15px;
+}
+.main-nav__item:last-child a {
+	padding: 0 8px;
 }
 .main-nav__item a:hover {
 	color: #fff;
@@ -568,9 +571,10 @@ footer {
 	padding-bottom: 52px;
 }
 .footer-nav {
-	width: 296px;
-	margin: 0 auto;
-	padding-top: 10px;
+    width: 373px;
+    padding-left: 40px;
+    margin: 0 auto;
+    padding-top: 10px;
 }
 .footer-nav__item {
 	float: left;
@@ -578,22 +582,33 @@ footer {
 	font-size: 10px;
 }
 .footer-nav__item a {
-	font-size: 12px;
-	color: #bec6c9;
-	padding: 0 14px;
-	border-right: 1px solid #7a878f;
-	border-left: 1px solid #8d989
+    font-size: 12px;
+    color: #bec6c9;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    padding: 0 10px 0 13px;
+    border-right: 1px solid #7a878f;
+    border-left: 1px solid #8d989;
 }
 .footer-nav__item a:hover {
 	color: #52abcb;
 }
 .footer-nav__item:first-child a{
-	border-left: 0;
-	padding-left: 0;
+border-left: 0;
+    padding-left: 0;
+    padding-right: 11px;
 }
 .footer-nav__item:last-child a {
 	border-right: 0;
 	padding-right: 0;
+	padding-left: 17px;
+}
+.footer-nav__item:nth-child(2) a {
+    padding: 0 12px 0 13px;
+}
+.footer-nav__item:nth-child(3) a {
+    padding: 0px 12px 0 13px;
+    letter-spacing: 0.1px;
 }
 footer p {
 	font-size: 10px;
